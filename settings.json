@@ -1,38 +1,4 @@
-{
-    "$help": "https://aka.ms/terminal-documentation",
-    "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
-        {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
-        }
-    ],
-    "copyFormatting": "none",
-    "copyOnSelect": false,
-    "defaultProfile": "",
-    "focusFollowMouse": true,
+"focusFollowMouse": true,
     "profiles": 
     {
         "defaults": 
@@ -52,65 +18,26 @@
         "list": 
         [
             {
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-                "guid": "",
+                "closeOnExit": "never",
+                "colorScheme": "Campbell Green",
+                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+                "guid": "{b6d28cf0-b245-59cb-a780-b728ed6c082e}",
                 "hidden": false,
-                "name": "Windows PowerShell"
+                "name": "Pwsh"
             },
             {
+                "colorScheme": "Campbell",
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "guid": "",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
             },
             {
-                "guid": "",
+                "colorScheme": "Campbell",
+                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+                "guid": "{88eb15bb-4680-4878-932a-18a5bcae315f}",
                 "hidden": false,
-                "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore",
-                "startingDirectory": null
-            },
-            {
-                "guid": "",
-                "hidden": false,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
-            },
-            {
-                "guid": "",
-                "hidden": false,
-                "name": "kali-linux",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "",
-                "hidden": true,
-                "name": "Developer Command Prompt for VS 2019",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "",
-                "hidden": true,
-                "name": "Developer PowerShell for VS 2019",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "",
-                "hidden": false,
-                "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
+                "name": "PowerShell 7"
             }
         ]
     },
@@ -130,9 +57,32 @@
             "brightYellow": "#F9F1A5",
             "cursorColor": "#FFFFFF",
             "cyan": "#3A96DD",
-            "foreground": "#00A000",
+            "foreground": "#CCCCCC",
             "green": "#13A10E",
             "name": "Campbell",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        },
+        {
+            "background": "#0C0C0C",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#00A400",
+            "green": "#13A10E",
+            "name": "Campbell Green",
             "purple": "#881798",
             "red": "#C50F1F",
             "selectionBackground": "#FFFFFF",
